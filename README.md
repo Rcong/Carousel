@@ -1,6 +1,6 @@
-# 仿网易云音乐mac版轮播Demo
+# 3D轮播Demo
 
-一个仿网易云音乐mac版的轮播demo,[戳这里](http://book.jirengu.com/Rcong/my-practical-code/vue-carousel/carousel.html).
+一个3D轮播demo,[戳这里](http://book.jirengu.com/Rcong/my-practical-code/vue-carousel/carousel.html).
 ![截图](http://7xrunf.com1.z0.glb.clouddn.com/carousel-pic.png)
 
 # 如何使用
