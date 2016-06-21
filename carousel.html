@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>网易云音乐轮播demo</title>
+        <link rel="stylesheet" href="css/carousel.css">
+        <style media="screen">
+
+            body,ul,li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            .wrap {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            #app {
+                margin: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div id="app"></div>
+        </div>
+    </body>
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/carousel.js"></script>
+    <!-- <script src="js/libs/vue.js"></script>
+    <script src="js/VCarousel.js"></script> -->
+    <script type="text/javascript">
+
+        var data = [{
+            url: 'https://github.com/Rcong',
+            img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img0.jpg'
+        }, {
+            url: 'https://github.com/Rcong',
+            img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img1.jpg'
+        }, {
+            url: 'https://github.com/Rcong',
+            img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img2.jpg'
+        }, {
+            url: 'https://github.com/Rcong',
+            img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img3.jpg'
+        }, {
+            url: 'https://github.com/Rcong',
+            img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img4.jpg'
+        }
+        // , {
+        //     url: 'https://github.com/Rcong',
+        //     img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img5.jpg'
+        // }, {
+        //     url: 'https://github.com/Rcong',
+        //     img: 'http://7xrunf.com1.z0.glb.clouddn.com/rcong-img6.jpg'
+        // }
+    ];
+
+        // new Vue({
+        //     el: '#app',
+        //     data: {
+        //         imgList: data
+        //     }
+        // })
+
+        var vcarousel = new VCarousel({
+            wrap: $('#app'),
+            data: data
+        });
+
+    </script>
+</html>
