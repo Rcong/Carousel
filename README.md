@@ -1,7 +1,7 @@
 # 3D轮播Demo
 
 一个3D轮播demo,[戳这里](http://book.jirengu.com/Rcong/my-practical-code/vue-carousel/carousel.html).
-![截图](http://oa7h77y2u.bkt.clouddn.com/3d_carousel.png)
+![截图](http://oa7h77y2u.bkt.clouddn.com/3d_carousel.gif)
 
 # 如何使用
 
